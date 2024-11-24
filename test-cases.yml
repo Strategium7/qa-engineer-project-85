@@ -191,7 +191,7 @@
   test-data: |
     none
   steps:
-    - Вписать неккоретные данные в инпут, напр. email : qwerty.com
+    - Вписать некорретные данные в инпут, напр. email : qwerty.com
   expected-result: |
     При вводе появляется ошибка
 

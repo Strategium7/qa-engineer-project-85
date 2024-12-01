@@ -3,6 +3,10 @@
   status: pass
 
 - summary: |
+    Проверка логина через Дискорд
+  status: fail
+
+- summary: |
     Проверка регистрации пользователя
   status: pass
 

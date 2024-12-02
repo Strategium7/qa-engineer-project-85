@@ -15,10 +15,6 @@
   status: pass
 
 - summary: |
-    Проверка логина пользователя с неправильными вводными данными
-  status: pass
-
-- summary: |
     Проверка создания баттла с ботом
   status: pass
 
@@ -35,11 +31,15 @@
   status: pass
 
 - summary: |
-    Проверка работоспобности чата
+    Проверка чата на главной странице
   status: pass
 
 - summary: |
     Проверка вкладки Tournaments
+  status: pass
+
+- summary: |
+    Проверить старт батла без регистрации
   status: pass
 
 - summary: |
@@ -61,3 +61,9 @@
 - summary: |
     Проверить старт батла без регистрации
   status: pass
+
+- summary: |
+    Проверка чата в турнире
+  status: fail
+
+

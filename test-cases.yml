@@ -65,9 +65,9 @@
     none
   steps:
     - Выбрать Level 2
-    - Game Type :  With a bot
+    - Game Type with Bot
     - Time control 8 min
-    - Choose task: random task
+    - Choose task random task
     - Нажать Create Battle
   expected-result: |
     Должен начаться батл с ботом
@@ -197,7 +197,7 @@
 - summary: |
     Проверка закончившегося батла во вкладе History
   requirement: |
-    Прошлые батлы должны открываться и отображать : статус, кто победил, дата
+    Прошлые батлы должны открываться и отображать статус, кто победил, дата
   prerequisites:
     none
   test-data: |
@@ -206,7 +206,7 @@
     - Открыть вкладку History
     - Выбрать прошлый батл
   expected-result: |
-    Закончившийся баттл отражает информацию : статус, кто победил, дата
+    Закончившийся баттл отражает информацию статус, кто победил, дата
 
 - summary: |
     Проверка регистрации с некорректными вводными данными
@@ -217,7 +217,7 @@
   test-data: |
     none
   steps:
-    - Вписать некорретные данные в инпут, напр. email : qwerty.com
+    - Вписать некорретные данные в инпут, например email qwerty.com
   expected-result: |
     При вводе появляется ошибка
 
@@ -230,6 +230,6 @@
   test-data: |
     none
   steps:
-    - Нажать "Try simple battle" на главной странице
+    - Нажать Try simple battle на главной странице
   expected-result: |
     Баттл без регистрации успешно запущен
